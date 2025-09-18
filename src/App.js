@@ -3,7 +3,7 @@ import { useState, useMemo } from 'react'
 
 const headerConfig = {
   botName: 'LawGic.AI',
-  botAvatar: 'https://cdn.botpress.cloud/bot-avatar.png',
+  botAvatar: 'public/logo192.png',
   botDescription: 'No suit, no tie, just AI legal guy',
 }
 
@@ -15,7 +15,7 @@ function App() {
 
   const config = {
     botName: 'LawGic.AI',
-    botAvatar: 'https://picsum.photos/id/80/400',
+    botAvatar: 'public/logo192.png',
     botDescription: 'No suit, no tie, just AI legal guy ',
   }
 
