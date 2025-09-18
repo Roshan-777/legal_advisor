@@ -14,9 +14,9 @@ function App() {
   })
 
   const config = {
-    botName: 'LawGic.AI',
+    botName: '',
     botAvatar: '/logo192.png',
-    botDescription: 'No suit, No tie, Just AI legal guy ',
+    botDescription: 'LawGic.AI - No suit, No tie, Just AI legal guy ',
   }
 
   const enrichedMessages = useMemo(
