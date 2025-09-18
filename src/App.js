@@ -3,7 +3,7 @@ import { useState, useMemo } from 'react'
 
 const headerConfig = {
   botName: 'LawGic.AI',
-  botAvatar: 'https://github.com/Roshan-777/legal_advisor/blob/0b278edfe200f6579afb2123cbdf5c3e949f2a50/public/logo192.png',
+  botAvatar: '/logo192.png',
   botDescription: 'No suit, No tie, Just AI legal gu',
 }
 
