@@ -21,3 +21,23 @@ body, html, #root {
   background-color: #134E4A; /* 👈 change this to your desired background color */
 }
 
+.bpMessageListMarqueeAvatarFallback {
+  align-items: center !important;
+  display: flex !important;
+  justify-content: center !important;
+  font-size: 1.875rem !important;
+  line-height: 2.25rem !important;
+  width: 5rem !important;   /* 80px */
+  height: 5rem !important;  /* make sure height is fixed too */
+
+  /* Add background image */
+  background-image: url('/logo192.png') !important; /* or your own path */
+  background-size: cover !important;   /* cover = fills the box, keeps aspect ratio */
+  background-position: center !important; /* center the image */
+  background-repeat: no-repeat !important; /* don’t tile the image */
+
+  /* Remove these if you don’t want text over it */
+  color: #f5f8fe !important;
+}
+
+
