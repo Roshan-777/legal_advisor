@@ -5,11 +5,6 @@ const headerConfig = {
   botName: 'LawGic.AI',
   botAvatar: 'https://cdn.botpress.cloud/bot-avatar.png',
   botDescription: 'No suit, no tie, just AI legal guy',
-  phone: { title: 'Call Support', link: 'tel:+1234567890' },
-  email: { title: 'Email Us', link: 'mailto:support@example.com' },
-  website: { title: 'Visit our website', link: 'https://www.example.com' },
-  termsOfService: { title: 'Terms of Service', link: 'https://www.example.com/terms' },
-  privacyPolicy: { title: 'Privacy Policy', link: 'https://www.example.com/privacy' },
 }
 
 function App() {
