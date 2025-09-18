@@ -4,7 +4,7 @@ import { useState, useMemo } from 'react'
 const headerConfig = {
   botName: 'LawGic.AI',
   botAvatar: '/logo192.png',
-  botDescription: 'No suit, no tie, just AI legal guy',
+  botDescription: 'No suit, No tie, Just AI legal guy',
 }
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
   const config = {
     botName: 'LawGic.AI',
     botAvatar: '/logo192.png',
-    botDescription: 'No suit, no tie, just AI legal guy ',
+    botDescription: 'No suit, No tie, Just AI legal guy ',
   }
 
   const enrichedMessages = useMemo(
