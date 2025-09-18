@@ -54,7 +54,7 @@ function App() {
           transform: 'translate(-50%, -50%)', // perfectly center
           borderRadius: '12px',
           boxShadow: '0 4px 20px rgba(0, 0, 0, 0.2)',
-          background: '#fff',
+          backgroundColor: '#23395D',
         }}
       >
         <Header
