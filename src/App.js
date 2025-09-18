@@ -13,11 +13,11 @@ function App() {
     clientId: '79510b0c-e199-45db-8583-a505bd95ca22', // Replace with your actual Botpress Client ID
   })
 
-  const config = {
-    botName: '',
-    botAvatar: '/logo192.png',
-    botDescription: 'LawGic.AI - No suit, No tie, Just AI legal',
-  }
+  // const config = {
+  //   botName: '',
+  //   botAvatar: '/logo192.png',
+  //   botDescription: 'LawGic.AI - No suit, No tie, Just AI legal',
+  // }
 
   const enrichedMessages = useMemo(
     () =>
